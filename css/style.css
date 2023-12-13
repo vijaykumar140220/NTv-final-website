@@ -109,13 +109,12 @@ h6,
 }
 
 .sticky-top.navbar-light .navbar-brand img {
-    max-height: 45px;
+    max-height: 100%;
 }
 .navbar img{
-    border: none;
     width: 80px;
-    border-radius: 50px;
-    /* height: 10vh; */
+    /* border-radius: 10px; */
+    height: 100%;
     background-color: white;
 }
 /* #Services{
@@ -145,7 +144,7 @@ h6,
     }
 
     .navbar-light .navbar-brand img {
-        max-height: 55px;
+        max-height: 100%;
         width: 100px;
     }
     #Services{
@@ -201,9 +200,8 @@ h6,
         display: none;
     }
     .navbar-light .navbar-brand img {
-        max-height: 50px;
-        width: 80px;
-        border: 2px solid black;
+        height: 100%;
+        width: 85px;
     }
 
     .sticky-top.navbar-light .navbar-brand h1 {
