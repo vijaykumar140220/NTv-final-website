@@ -112,12 +112,15 @@ h6,
     max-height: 45px;
 }
 .navbar img{
-    /* border: 2px solid black; */
+    border: none;
     width: 80px;
     border-radius: 50px;
     /* height: 10vh; */
     background-color: white;
 }
+/* #Services{
+    display: none;
+} */
 
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
@@ -142,7 +145,17 @@ h6,
     }
 
     .navbar-light .navbar-brand img {
-        max-height: 45px;
+        max-height: 55px;
+        width: 100px;
+    }
+    #Services{
+        display: block;
+    }
+    #services-list{
+        display: block;
+    }
+    #phone{
+        display: none;
     }
 }
 
@@ -177,9 +190,20 @@ h6,
         width: 100%;
         left: 0;
     }
+    #Services{
+        display: none;
+    }
+    #services-list{
+        display: none;
+    }
 
     .navbar-light .navbar-nav .nav-link.nav-contact::before {
         display: none;
+    }
+    .navbar-light .navbar-brand img {
+        max-height: 50px;
+        width: 80px;
+        border: 2px solid black;
     }
 
     .sticky-top.navbar-light .navbar-brand h1 {
