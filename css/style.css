@@ -197,17 +197,20 @@ h6,
     }
     .paynow{
         display: flex;
-        text-align: center;
     }
     .paynow h6{
-        font-size: 1rem;
-        margin: 10px 50px;
+        font-size: 0.7rem;
+        margin: 10px 30px;
     }
     .contact-details p i{
-        color: #1D1D27;
-        margin: 10px 20px 0;
-        font-size: 12px;
-        padding: 0;
+        color: black;
+        margin: 10px 15px 0;
+        font-size: 11px;
+    }
+    .first-icons a i{
+        font-size: 20px;
+        /* border: 1px solid black; */
+        padding: 5px 10px;
     }
     
     
