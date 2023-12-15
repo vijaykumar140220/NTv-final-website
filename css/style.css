@@ -32,9 +32,14 @@
 }
 .final{
     background-color: #1D1D27;
+    display: none;
+}
+.final-one{
+    background-color: black;
+    display: block;
 }
 
-.contact-details{
+.final-one .contact-details{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -42,20 +47,24 @@
     height: 10vh;
     color: white;
 }
-.contact-details p i {
+.final-one .contact-details p i {
     color: white;
     margin: 0;
+    font-size: 0.8rem;
 }
-.contact-details h1{
-    font-size: 1rem;
+.final-one .contact-details h1{
+    font-size: 1.5rem;
     color: white;
 }
-.contact-details i label{
+.final-one .contact-details i label{
     padding: 0 10px;
     text-transform: lowercase;
 }
 .contact-details h6{
     color: white;
+}
+.final-one .contact-details h1{
+    font-size: 1rem;
 }
 .first-icons i{
     font-size: 15px;
@@ -66,9 +75,15 @@
     padding: 0px 10px;
     color: white;
 }
-.marquee{
-    color: #1D1D27;
+.vijay marquee{
+    color: white;
 }
+.final-one .paynow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 
 /*** Heading ***/
@@ -165,6 +180,7 @@ h6,
     width: 100%;
     border-radius: 10px;
     height: 100%;
+    background-color: white;
 }
 /* #Services{
     display: none;
@@ -192,7 +208,7 @@ h6,
         font-size: 12px;
     }
 
-    .contact-details{
+    .final .contact-details{
         /* background-color: #4777F5; */
         display: block;
         width: 100%;
@@ -202,6 +218,7 @@ h6,
         align-items: center;
         justify-content: center;
         text-align: center;
+        color: white;
     }
     .contact-details p i{
         font-size: 12px;
@@ -209,6 +226,7 @@ h6,
     .contact-details h1{
         font-size: 1rem;
         text-align: center;
+        color: white;
     }
     .paynow{
         display: flex;
@@ -233,6 +251,12 @@ h6,
     }
     .marquee{
         margin: 0px 10px;
+    }
+    .final-one{
+        display: none;
+    }
+    .final{
+        display: block;
     }
     
     
