@@ -211,7 +211,7 @@ h6,
     }
     .contact-details p label{
         color: red;
-        margin: 20px 10px;
+        margin: 10px 10px;
         font-size: 12px;
     }
     .first-icons a i{
@@ -223,6 +223,9 @@ h6,
     }
     .contact-details i {
         padding: 0 5px;
+    }
+    .marquee{
+        margin: 0px 10px;
     }
     
     
