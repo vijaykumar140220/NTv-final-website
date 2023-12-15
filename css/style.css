@@ -42,7 +42,6 @@
 .contact-details p i {
     color: #1D1D27;
     margin: 0;
-    /* border: 2px solid black; */
 }
 .contact-details h1{
     font-size: 1rem;
@@ -57,7 +56,6 @@
 }
 .first-icons a i{
     font-size: 30px;
-    /* border: 1px solid black; */
     padding: 0px 10px;
 }
 .marquee{
@@ -211,14 +209,13 @@ h6,
         font-size: 0.7rem;
         margin: 10px 30px;
     }
-    .contact-details p{
-        color: black;
+    .contact-details p label{
+        color: red;
         margin: 20px 10px;
         font-size: 12px;
     }
     .first-icons a i{
         font-size: 20px;
-        /* border: 1px solid black; */
         padding: 5px 10px;
     }
     .contact-details i label{
